@@ -1,0 +1,141 @@
+/* Reset + base */
+@font-face {
+font-family: 'adelline';
+src: url('adelline_2/Adelline\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'monic';
+src: url('monic/Monic\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'shifa';
+src: url('shifa_rame/#MS_Agreement\ -\ Please\ Read\ Me\ !!\ Important\ !!.pdf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'shifa';
+    background: #f7d6dc;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #e96a8d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+font-family: 'adelline';
+
+
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'shifa';
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #e96a8d;
+    letter-spacing: 5px;
+font-family: 'adelline';
+
+}
+
+/* Section Titles */
+.section-title {
+    background: #e96a8d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+font-family: 'shifa';
+
+}
+
+/* About */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'shifa';
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 300px;
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #f08aa3;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+}
